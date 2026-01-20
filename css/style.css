@@ -184,7 +184,7 @@ a:hover {
 .skills-viewport {
   display: flex;
   overflow-x: auto;
-  max-width: 541px;
+  max-width: 1000px;
   gap: 60px;
 }
 
@@ -407,4 +407,5 @@ p {
   .mobile {
     width: fit-content !important;
   }
+
 }
