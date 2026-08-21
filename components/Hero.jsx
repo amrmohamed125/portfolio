@@ -111,7 +111,7 @@ export default function Hero() {
             <div className="relative inline-block">
               <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] opacity-30 blur-lg animate-pulse"></div>
               <img 
-                src="../images/My Photo.png" 
+                src="../public/images/My Photo.png" 
                 alt="Amr Mohamed" 
                 className="relative w-full max-w-sm mx-auto rounded-2xl shadow-2xl" 
                 style={{ animation: 'float 4s ease-in-out infinite' }}
