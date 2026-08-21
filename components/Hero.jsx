@@ -87,9 +87,9 @@ export default function Hero() {
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-8 text-start" data-aos="fade-right">
-            <h4 className="inline-block border-2 border-[#38bdf8] text-[#38bdf8] px-4 py-2 rounded-full mb-4 text-sm font-semibold uppercase tracking-widest">
+            <span className="inline-block border-2 border-[#38bdf8] text-[#38bdf8] px-4 py-2 rounded-full mb-4 text-sm font-semibold uppercase tracking-widest">
               Welcome all in my portfolio
-            </h4>
+            </span>
             <h1 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight text-white">
               Hi! I'm Amr Mohamed, <br />
               <span ref={typewriterRef} className="text-[#38bdf8] border-r-2 border-[#38bdf8] pr-1 animate-pulse"></span>
