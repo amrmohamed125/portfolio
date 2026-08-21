@@ -5,42 +5,42 @@ const projectsData = [
     id: 1,
     title: 'Grocery Web Application',
     description: 'A full-stack grocery web application featuring product catalog, cart management, and seamless online shopping experience.',
-    img: '../public/images/full-stack.PNG',
+    img: '/images/full-stack.PNG',
     link: 'https://my-grocery-app-six.vercel.app/'
   },
   {
     id: 2,
     title: 'E-Commerce Store',
     description: 'An interactive e-commerce store built with modern frontend technologies, featuring dynamic product grids and smooth navigation.',
-    img: '/public/images/E-commers.PNG',
+    img: '/images/E-commers.PNG',
     link: 'https://amrmohamed125.github.io/E-Commerce/'
   },
   {
     id: 3,
     title: 'Movies App',
     description: 'A responsive web application interface for exploring movies, browsing recommendations, and viewing detailed media info.',
-    img: '/public/images/cinema.PNG',
+    img: '/images/cinema.PNG',
     link: 'https://amrmohamed125.github.io/project1-recommend/'
   },
   {
     id: 4,
     title: 'Tailwind Web',
     description: 'A modern landing page and UI components crafted with Tailwind CSS for high performance and clean design.',
-    img: '/public/images/tailwind.PNG',
+    img: '/images/tailwind.PNG',
     link: 'https://amrmohamed125.github.io/tialwand-project1/'
   },
   {
     id: 5,
     title: 'EduPlatform',
     description: 'An educational interface built with Bootstrap to organize courses, learning materials, and student sections efficiently.',
-    img: '/public/images/bootstrab.PNG',
+    img: '/images/bootstrab.PNG',
     link: 'https://amrmohamed125.github.io/project-5/'
   },
   {
     id: 6,
     title: 'Online Store',
     description: 'A clean store UI layout developed using pure HTML and CSS, highlighting structured frontend design and styling skills.',
-    img: '/public/images/html & css.PNG',
+    img: '/images/html & css.PNG',
     link: 'https://amrmohamed125.github.io/Online-Store/'
   }
 ];
