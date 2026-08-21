@@ -114,7 +114,7 @@ export default function Navbar() {
 
             {/* My CV */}
           <a 
-            href="../CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
+            href="/CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
             download 
             className="btn bg-[#0ea5e9] hover:bg-[#38bdf8] text-white font-bold px-5 py-2 rounded-lg transition-all duration-300 border-0 shadow-md text-xs tracking-wider uppercase text-decoration-none hover:-translate-y-0.5"
           >
@@ -161,7 +161,7 @@ export default function Navbar() {
             );
           })}
           <a 
-            href="../CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
+            href="/CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
             download 
             className="btn bg-[#0ea5e9] hover:bg-[#38bdf8] text-white font-semibold px-4 py-2.5 rounded-lg transition-all duration-300 border-0 shadow-md text-sm text-decoration-none w-100 mt-2"
           >
