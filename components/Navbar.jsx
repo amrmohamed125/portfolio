@@ -112,7 +112,7 @@ export default function Navbar() {
             })}
           </ul>
 
-          {/* Download CV (Desktop Only) */}
+          {/* Download CV */}
           <a 
             href="/CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
             download 

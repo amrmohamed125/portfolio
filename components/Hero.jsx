@@ -83,7 +83,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center pt-32 sm:pt-36 pb-16" id="homepage">
+    <section className="min-h-screen flex items-center pt-32 sm:pt-30 pb-10" id="homepage">
       <div className="container px-4">
         <div className="row align-items-center">
           <div className="col-lg-8 text-start" data-aos="fade-right">
@@ -99,7 +99,7 @@ export default function Hero() {
             </h1>
 
             {/* Description */}
-            <p className="text-base sm:text-lg text-[#94a3b8] max-w-2xl mb-7 mb-lg-4 leading-relaxed">
+            <p className="text-base sm:text-lg text-[#94a3b8] max-w-2xl mb-3 mb-lg-4 leading-relaxed">
               Full-stack developer building clean, responsive web applications and interfaces.
             </p>
 
