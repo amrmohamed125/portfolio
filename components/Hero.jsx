@@ -83,30 +83,50 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="min-h-screen flex items-center pt-28 pb-12" id="homepage">
-      <div className="container">
+    <section className="min-h-screen flex items-center pt-32 sm:pt-36 pb-16" id="homepage">
+      <div className="container px-4">
         <div className="row align-items-center">
           <div className="col-lg-8 text-start" data-aos="fade-right">
-            <span className="inline-block border-2 border-[#38bdf8] text-[#38bdf8] px-4 py-2 rounded-full mb-4 text-sm font-semibold uppercase tracking-widest">
+            
+            <span className="inline-block border-2 border-[#38bdf8] text-[#38bdf8] px-4 py-2 rounded-full mb-4 mb-lg-3 text-xs sm:text-sm font-semibold uppercase tracking-widest shadow-sm">
               Welcome all in my portfolio
             </span>
-            <h1 className="text-4xl md:text-6xl font-extrabold mb-4 leading-tight text-white">
-              Hi! I'm Amr Mohamed, <br />
+
+            {/* Title */}
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-extrabold mb-3 mb-lg-3 leading-relaxed sm:leading-tight text-white">
+              Hi! I'm Amr Mohamed, <br className="hidden sm:inline" />
               <span ref={typewriterRef} className="text-[#38bdf8] border-r-2 border-[#38bdf8] pr-1 animate-pulse"></span>
             </h1>
-            <p className="text-lg text-[#94a3b8] max-w-2xl mb-8">
+
+            {/* Description */}
+            <p className="text-base sm:text-lg text-[#94a3b8] max-w-2xl mb-7 mb-lg-4 leading-relaxed">
               Full-stack developer building clean, responsive web applications and interfaces.
             </p>
-            <a 
-              href="#connect" 
-              onClick={(e) => scrollToSection(e, 'connect')}
-              className="btn btn-primary bg-[#0ea5e9] border-0 px-8 py-3 rounded-full text-white font-semibold hover:bg-[#38bdf8] transition-all duration-300 text-decoration-none inline-block"
-            >
-              Let's Connect
-            </a>
+
+            {/* Buttons Group */}
+            <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+              {/* Let's Connect */}
+              <a 
+                href="#connect" 
+                onClick={(e) => scrollToSection(e, 'connect')}
+                className="btn bg-[#0ea5e9] hover:bg-[#38bdf8] border-0 px-7 sm:px-8 py-3 rounded-full text-white font-semibold shadow-lg shadow-[#0ea5e9]/20 transition-all duration-300 text-decoration-none text-sm sm:text-base hover:-translate-y-0.5"
+              >
+                Let's Connect
+              </a>
+
+              {/* Download CV */}
+              <a 
+                href="/CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
+                download 
+                className="d-lg-none btn border-2 border-[#38bdf8] text-[#38bdf8] hover:bg-[#38bdf8] hover:text-slate-900 px-7 sm:px-8 py-3 rounded-full font-semibold transition-all duration-300 text-decoration-none text-sm sm:text-base hover:-translate-y-0.5"
+              >
+                Download CV
+              </a>
+            </div>
+
           </div>
 
-          {/* My Photo*/}
+          {/* My Photo */}
           <div className="col-lg-4 text-center mt-5 mt-lg-0 d-none d-lg-block" data-aos="fade-left">
             <div className="relative inline-block">
               <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-[#0ea5e9] to-[#38bdf8] opacity-30 blur-lg animate-pulse"></div>

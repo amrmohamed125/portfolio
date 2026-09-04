@@ -25,9 +25,9 @@ const projectsData = [
   {
     id: 4,
     title: 'Tailwind Web',
-    description: 'A modern landing page and UI components crafted with Tailwind CSS for high performance and clean design.',
+    description: 'A modern, fully responsive landing page built with Tailwind CSS, focusing on mobile-first design, high performance, and clean UI.',
     img: '/images/tailwind.PNG',
-    link: 'https://amrmohamed125.github.io/tialwand-project1/'
+    link: 'https://amrmohamed125.github.io/tailwind-project/'
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const projectsData = [
   {
     id: 6,
     title: 'Online Store',
-    description: 'A clean store UI layout developed using pure HTML and CSS, highlighting structured frontend design and styling skills.',
+    description: 'A fully responsive e-commerce store layout built using HTML, CSS, and Bootstrap for seamless cross-device display and structured design.',
     img: '/images/html & css.PNG',
     link: 'https://amrmohamed125.github.io/Online-Store/'
   }

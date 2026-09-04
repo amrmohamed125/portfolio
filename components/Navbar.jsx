@@ -79,14 +79,14 @@ export default function Navbar() {
         
         {/* Logo */}
         <a 
-        className="text-xl font-extrabold tracking-widest text-[#38bdf8] no-underline uppercase hover:opacity-80 transition-opacity duration-300" 
-        href="#homepage" 
-        onClick={(e) => scrollToSection(e, 'homepage')}
+          className="text-xl font-extrabold tracking-widest text-[#38bdf8] no-underline uppercase hover:opacity-80 transition-opacity duration-300" 
+          href="#homepage" 
+          onClick={(e) => scrollToSection(e, 'homepage')}
         >
-        PORTFOLIO<span className="text-white">.</span>
+          PORTFOLIO<span className="text-white">.</span>
         </a>
 
-        {/* Nav Links */}
+        {/* Desktop Navigation */}
         <div className="d-none d-lg-flex align-items-center gap-5">
           <ul className="d-flex align-items-center gap-4 m-0 p-0 list-unstyled">
             {navLinks.map((link) => {
@@ -112,7 +112,7 @@ export default function Navbar() {
             })}
           </ul>
 
-            {/* My CV */}
+          {/* Download CV (Desktop Only) */}
           <a 
             href="/CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
             download 
@@ -122,7 +122,7 @@ export default function Navbar() {
           </a>
         </div>
 
-        {/* Mobile*/}
+        {/* Mobile Toggle Button */}
         <button 
           className="d-lg-none border-0 bg-[#1c2541]/80 hover:bg-[#1c2541] p-2.5 rounded-xl focus:outline-none transition-all duration-300 shadow-md" 
           type="button" 
@@ -139,9 +139,12 @@ export default function Navbar() {
         </button>
       </div>
 
+      {/* Mobile Menu */}
       <div 
         className={`d-lg-none absolute top-full left-0 w-100 overflow-hidden transition-all duration-300 ease-in-out bg-[#141B2F] shadow-2xl border-top border-secondary/20 ${
-          isOpen ? 'max-h-[350px] opacity-100 py-4' : 'max-h-0 opacity-0 py-0'
+          isOpen 
+            ? 'max-h-[250px] opacity-100 py-4 visible pointer-events-auto' 
+            : 'max-h-0 opacity-0 py-0 invisible pointer-events-none'
         }`}
       >
         <div className="container d-flex flex-column align-items-center gap-2 text-center px-4">
@@ -150,7 +153,7 @@ export default function Navbar() {
             return (
               <a 
                 key={link.id}
-                className={`w-100 py-2 rounded-lg font-semibold text-sm text-decoration-none transition-all duration-300 ${
+                className={`w-100 py-2.5 rounded-lg font-semibold text-sm text-decoration-none transition-all duration-300 ${
                   isActive ? 'bg-[#38bdf8]/10 text-[#38bdf8]' : 'text-slate-300 hover:text-white hover:bg-white/5'
                 }`}
                 href={`#${link.id}`} 
@@ -160,13 +163,6 @@ export default function Navbar() {
               </a>
             );
           })}
-          <a 
-            href="/CV/Amr_Mohamed_FlowCV_Resume_2026-08-10.pdf" 
-            download 
-            className="btn bg-[#0ea5e9] hover:bg-[#38bdf8] text-white font-semibold px-4 py-2.5 rounded-lg transition-all duration-300 border-0 shadow-md text-sm text-decoration-none w-100 mt-2"
-          >
-            Download CV
-          </a>
         </div>
       </div>
     </nav>
