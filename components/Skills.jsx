@@ -1,16 +1,16 @@
 import React from 'react';
 
 const skillsList = [
-  { name: 'HTML5', percent: '95%' },
-  { name: 'CSS3', percent: '90%' },
-  { name: 'JavaScript', percent: '85%' },
-  { name: 'Bootstrap', percent: '90%' },
-  { name: 'Tailwind CSS', percent: '88%' },
-  { name: 'React.js', percent: '82%' },
-  { name: 'Node.js', percent: '75%' },
-  { name: 'Express.js', percent: '78%' },
-  { name: 'MongoDB', percent: '70%' },
-  { name: 'Git & GitHub', percent: '85%' }
+  { name: 'HTML5', percent: '98%' },
+  { name: 'CSS3', percent: '98%' },
+  { name: 'JavaScript', percent: '95%' },
+  { name: 'Bootstrap', percent: '95%' },
+  { name: 'Tailwind CSS', percent: '98%' },
+  { name: 'React.js', percent: '90%' },
+  { name: 'Node.js', percent: '90%' },
+  { name: 'Express.js', percent: '90%' },
+  { name: 'MongoDB', percent: '90%' },
+  { name: 'Git & GitHub', percent: '95%' }
 ];
 
 export default function Skills() {
